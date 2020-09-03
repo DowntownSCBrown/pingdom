@@ -1,3 +1,5 @@
+## For a detailed explanation of this code, check out my blog post at https://stevenbrown.us/connecting-to-the-pingdom-api-with-python/.
+
 import requests
 import json
 import csv
@@ -19,6 +21,3 @@ with open(csvFile, 'w', newline='') as pChecksList:
         csvwriter.writerow((check['name'], check['status']))
 
 pChecksList.close()
-
-
-#testing
