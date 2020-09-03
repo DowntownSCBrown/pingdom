@@ -19,3 +19,6 @@ with open(csvFile, 'w', newline='') as pChecksList:
         csvwriter.writerow((check['name'], check['status']))
 
 pChecksList.close()
+
+
+#testing
